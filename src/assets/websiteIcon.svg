@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#1a1a1a" />
+
+  <style>
+    .stroke-white { 
+      fill: none; 
+      stroke: #ffffff; 
+      stroke-width: 6; 
+      stroke-linecap: round; 
+      stroke-linejoin: round; 
+    }
+    .fill-white { 
+      fill: #ffffff; 
+    }
+  </style>
+  
+  <g transform="translate(15, -15) rotate(45, 120, 120)">
+    <rect x="95" y="20" width="50" height="10" rx="5" class="stroke-white" />
+    <rect x="113" y="30" width="14" height="25" class="stroke-white" />
+    <rect x="85" y="55" width="70" height="10" rx="3" class="stroke-white" />
+    <path d="M 92 65 L 148 65 L 148 135 L 128 155 L 112 155 L 92 135 Z" class="stroke-white" />
+    <rect x="92" y="65" width="56" height="15" class="fill-white" />
+    <line x1="92" y1="100" x2="148" y2="100" class="stroke-white" />
+    <line x1="92" y1="115" x2="115" y2="115" class="stroke-white" />
+    <rect x="112" y="155" width="16" height="12" rx="2" class="stroke-white" />
+    <line x1="120" y1="167" x2="120" y2="200" class="stroke-white" stroke-width="4" />
+  </g>
+  
+  <g class="stroke-white">
+    <line x1="77" y1="165" x2="74" y2="170" stroke-width="4" stroke-linecap="round" />
+    <path d="M 82 158 L 65 178 L 82 195 L 75 212 L 95 198 L 118 208 L 105 182 L 132 170 L 102 158 Z" />
+    <polygon points="55,160 48,175 38,162" />
+    <line x1="65" y1="178" x2="35" y2="188" />
+    <line x1="75" y1="212" x2="65" y2="232" />
+    <line x1="118" y1="208" x2="135" y2="228" />
+    <line x1="132" y1="170" x2="162" y2="165" />
+    <line x1="102" y1="158" x2="118" y2="142" />
+  </g>
+</svg>
